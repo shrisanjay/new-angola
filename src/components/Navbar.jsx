@@ -7,30 +7,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="top">
-        <div className="container">
-          <div>
-            <span dangerouslySetInnerHTML={{ __html: t("key_0") }} />
-          </div>
-          <div>
-            <a
-              href={t("phone1_href")}
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              {t("phone1_text")}
-            </a>{" "}
-            |{" "}
-            <a
-              href="mailto:maasgeoenergy26@gmail.com"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              maasgeoenergy26@gmail.com
-            </a>
-          </div>
-        </div>
-      </div>
+
       <header className="nav">
         <div className="container navwrap">
           <Link className="brand" to="/">

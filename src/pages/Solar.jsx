@@ -46,7 +46,7 @@ export default function Solar() {
   return (
     <main>
       {/* Hero */}
-      <div className="subpage-hero" style={{ backgroundImage: "linear-gradient(90deg, rgba(6, 23, 45, 0.96), rgba(6, 23, 45, 0.78)), url('/images/solar-images/IMG-20260503-WA0155.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', padding: '160px 0 100px' }}>
+      <div className="subpage-hero" style={{ backgroundImage: "linear-gradient(90deg, rgba(10, 30, 94, 0.96), rgba(10, 30, 94, 0.78)), url('/images/solar-images/IMG-20260503-WA0155.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', padding: '160px 0 100px' }}>
         <div className="container">
           <span className="eyebrow" style={{marginBottom: '20px'}}>MAAS AND CO</span>
           <h1 style={{color: '#fff', fontSize: 'clamp(36px, 6vw, 64px)', marginBottom: '16px'}}>
@@ -305,7 +305,7 @@ export default function Solar() {
       {/* Contact Us */}
       <section>
         <div className="container">
-          <div className="cta" style={{backgroundImage: "linear-gradient(90deg, rgba(6, 23, 45, 0.96), rgba(6, 23, 45, 0.78)), url('/images/solar-images/IMG-20260503-WA0154.jpg')"}}>
+          <div className="cta" style={{backgroundImage: "linear-gradient(90deg, rgba(10, 30, 94, 0.96), rgba(10, 30, 94, 0.78)), url('/images/solar-images/IMG-20260503-WA0154.jpg')"}}>
             <div>
               <span className="eyebrow" style={{marginBottom: '16px', background: 'rgba(255,255,255,0.1)', borderColor: 'rgba(255,255,255,0.2)', color: '#fff'}}>08. Contact Us</span>
               <h3>Get in touch with <strong style={{color: 'var(--gold2)'}}>MAAS AND CO</strong></h3>

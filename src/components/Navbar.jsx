@@ -55,9 +55,6 @@ export default function Navbar() {
                 FR
               </button>
             </div>
-            <Link className="btn gold" to="/#contact">
-              <span dangerouslySetInnerHTML={{ __html: t("key_6") }} />
-            </Link>
           </div>
         </div>
       </header>

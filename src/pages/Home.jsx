@@ -1,6 +1,9 @@
 import React, { useContext, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { LanguageContext } from '../LanguageContext';
+import whatsappIcon from '../logo/whatsapp.png';
+import telephoneIcon from '../logo/telephone.png';
+import webDomainIcon from '../logo/web-domain.png';
 
 export default function Home() {
   const { t } = useContext(LanguageContext);
@@ -319,13 +322,18 @@ export default function Home() {
             </div>
             <div className="contactbox">
               <a href={t('phone1_href')} target="_blank" rel="noreferrer">
-                📞 {t('phone1_text')}
+                <img src={whatsappIcon} style={{ width: '20px', height: '20px', objectFit: 'contain', flexShrink: 0 }} alt="WhatsApp" />
+                {t('phone1_text')}
               </a>
               <a href={t('phone2_href')}>
-                📞 {t('phone2_text')}
+                <img src={telephoneIcon} style={{ width: '20px', height: '20px', objectFit: 'contain', flexShrink: 0 }} alt="Phone" />
+                {t('phone2_text')}
               </a>
               <a href="mailto:maasgeoenergy26@gmail.com">✉️ maasgeoenergy26@gmail.com</a>
-              <a href="https://www.maasgeoenergy.com" target="_blank" rel="noreferrer">🌐 www.maasgeoenergy.com</a>
+              <a href="https://www.maasgeoenergy.com" target="_blank" rel="noreferrer">
+                <img src={webDomainIcon} style={{ width: '20px', height: '20px', objectFit: 'contain', flexShrink: 0 }} alt="Website" />
+                www.maasgeoenergy.com
+              </a>
               <div><span dangerouslySetInnerHTML={{ __html: t('address_text') }} /></div>
               <div>🧾 MNMAAS NIF: 5002785684</div>
               <div>🇮🇳 MAAS AND CO GST: 33AAVFM2956L2ZL</div>

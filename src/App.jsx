@@ -8,11 +8,13 @@ import Borewell from './pages/Borewell';
 import Solar from './pages/Solar';
 import Geotechnical from './pages/Geotechnical';
 
+import whatsappIcon from './logo/whatsapp.png';
+
 const WhatsAppButton = () => {
   const { t } = useContext(LanguageContext);
   return (
     <a aria-label="WhatsApp" className="wa" href={t('phone1_href')} target="_blank" rel="noreferrer">
-      ☏
+      <img src={whatsappIcon} style={{ width: '38px', height: '38px', objectFit: 'contain' }} alt="WhatsApp" />
     </a>
   );
 };
